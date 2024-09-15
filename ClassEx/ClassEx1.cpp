@@ -1,11 +1,14 @@
 #include<iostream>
 using namespace std;
+
 int main(){
-  double a,b,c,d;
+
+  double a,b,c,delta;
   cin>>a>>b>>c;
-  d=b*b-4*a*c;
+
+  delta=b*b-4*a*c;
   if(a==0)
-    cout<<"不是二次方程"<<endl;
+      cout<<"不是二次方程"<<endl;
   else if(d==0)
       cout<<"有两个相等的实根"<<endl;
 
